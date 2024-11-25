@@ -19,7 +19,7 @@ body {
     background-color: #fffefe;
     color: #191110
 }
-
+/* heading style */
 h1 {
     text-transform: uppercase;
 }
@@ -37,9 +37,14 @@ span {
     font-family: var(--secondary-font);
     font-size: 1.5rem;
 }
+/* list styles */
 ol, ul{
 list-style: none;
 padding-left: 0;
+}
+li{
+    padding: 10px;
+        text-align: justify;
 }
 
 i{
