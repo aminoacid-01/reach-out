@@ -23,7 +23,7 @@ body {
 h1 {
     text-transform: uppercase;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: var(--secondary-font);
 }
 
@@ -89,6 +89,7 @@ h2 {
 } */
 #about span {
     font-size: 1.2rem;
+
 }
 
 #about ol li{
@@ -100,5 +101,7 @@ h2 {
     margin:auto 1rem;
 }
 
-/* tips and advise section */
-
+/* tips and advice section */
+#tips .col-12{
+    border: #191110 solid 1px;
+}
