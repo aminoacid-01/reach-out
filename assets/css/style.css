@@ -103,5 +103,6 @@ h2 {
 
 /* tips and advice section */
 #tips .col-12{
-    border: #191110 solid 1px;
+    border-left: #191110 solid 1px;
+    border-right: #191110 solid 1px;
 }
