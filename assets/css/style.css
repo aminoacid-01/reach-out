@@ -37,6 +37,9 @@ span {
     font-family: var(--secondary-font);
     font-size: 1.5rem;
 }
+strong{
+    text-transform: uppercase;
+}
 /* list styles */
 ol, ul{
 list-style: none;
@@ -133,6 +136,6 @@ footer{
 @media only screen and (min-width: 768px){
     section{
         padding: 5%;
-        padding-top: 0;  
+        padding-top: 30px;  
     }
 }
