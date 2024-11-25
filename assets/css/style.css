@@ -57,7 +57,6 @@ nav {
     border: #191110 solid 1px;
 }
 
-
 /* hero image */
 #hero {
     width: 100%;
@@ -106,6 +105,16 @@ h2 {
 /* footer */
 footer{
     background-color: #ff7e6b;
+    border: #191110 solid 1px;
+}
+
+.socials, .copyright{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+.socials ol{
+    margin-bottom: 0;
 }
 .socials li{
     display:inline-block;  
