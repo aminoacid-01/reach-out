@@ -27,14 +27,13 @@ h1 {
 /* Header */
 /* Navbar */
 nav {
-    background-color: #ff7e6b !important;
-
-
+    background-color: #ff7e6b;
+    border:#191110 solid 1px;
 }
+
 
 /* hero image */
 #hero {
-    margin: 0;
     width: 100vw;
     height: 500px;
     background: url("../images/hero.webp") no-repeat center 40px/cover;
@@ -43,6 +42,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color:#ffb6ad;
 }
 
 #hero h1 {
