@@ -118,7 +118,7 @@ footer{
 }
 .socials li{
     display:inline-block;  
-    margin:1rem;
+    margin:0.5rem;
 }
 .socials a{
     color: #191110;
