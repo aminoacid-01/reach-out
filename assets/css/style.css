@@ -27,6 +27,17 @@ h1{
 /* Navbar */
 nav{
     background-color: #ff7e6b;
-    
+
+}
+
+/* hero image */
+#hero{
+    width: 100vw;
+    height:700px;
+    background: url("../images/hero.webp") no-repeat center 40px/cover;
+    text-align: center;
+}
+#hero h1{
+    font-size:3rem;
 }
 
