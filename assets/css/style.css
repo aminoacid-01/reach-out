@@ -22,6 +22,11 @@ body {
 
 h1 {
     font-family: var(--secondary-font);
+    text-transform: uppercase;
+}
+
+section{
+    padding-top: 1remgi;
 }
 
 /* Header */
@@ -36,7 +41,7 @@ nav {
 #hero {
     width: 100vw;
     height: 500px;
-    background: url("../images/hero.webp") no-repeat center 40px/cover;
+    background: url("../images/hero.webp") no-repeat center/cover;
     text-align: center;
     /* Flexbox to make the hero text responsive */
     display: flex;
@@ -51,5 +56,14 @@ nav {
 
 #hero h1, h2{
     margin: 1rem auto;
+    /* text shadow to help text stand out */
     text-shadow: 2px 3px #191110;
+}
+
+/* main */
+/* about */
+#about img{
+    width:auto;
+    height:80%;
+    margin: auto;
 }
