@@ -21,19 +21,28 @@ body {
 }
 
 h1 {
-    font-family: var(--secondary-font);
     text-transform: uppercase;
 }
+h1, h2, h3{
+    font-family: var(--secondary-font);
+}
 
-section{
-    padding-top: 1remgi;
+section {
+    padding-top: 1rem;
+    margin:auto;
+    text-align: center;
+}
+
+span {
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
 }
 
 /* Header */
 /* Navbar */
 nav {
     background-color: #ff7e6b;
-    border:#191110 solid 1px;
+    border: #191110 solid 1px;
 }
 
 
@@ -47,14 +56,15 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:#fffefe;
+    color: #fffefe;
 }
 
 #hero h1 {
     font-size: 3rem;
 }
 
-#hero h1, h2{
+#hero h1,
+h2 {
     margin: 1rem auto;
     /* text shadow to help text stand out */
     text-shadow: 2px 3px #191110;
@@ -62,8 +72,11 @@ nav {
 
 /* main */
 /* about */
-#about img{
-    width:auto;
-    height:80%;
-    margin: auto;
+#about img {
+    width: 95vw;
+    height: auto;
+}
+#about ol{
+    list-style: none;
+    padding-left: 0;
 }
