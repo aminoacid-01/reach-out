@@ -103,6 +103,19 @@ h2 {
 
 /* tips and advice section */
 
+/* footer */
+footer{
+    background-color: #ff7e6b;
+}
+.socials li{
+    display:inline-block;  
+    margin:1rem;
+}
+.socials a{
+    color: #191110;
+    text-decoration: none;
+}
+
 
 /* media queries */
 /* tablets and up */
