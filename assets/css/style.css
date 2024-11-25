@@ -42,9 +42,14 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:#ffb6ad;
+    color:#fffefe;
 }
 
 #hero h1 {
     font-size: 3rem;
+}
+
+#hero h1, h2{
+    margin: 1rem auto;
+    text-shadow: 2px 3px #191110;
 }
