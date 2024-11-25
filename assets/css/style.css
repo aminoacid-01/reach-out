@@ -22,3 +22,11 @@ body{
 h1{
     font-family: var(--secondary-font);
 }
+
+/* Header */
+/* Navbar */
+nav{
+    background-color: #ff7e6b;
+    
+}
+
