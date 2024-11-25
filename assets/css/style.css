@@ -28,7 +28,7 @@ h1, h2, h3, h4{
 }
 
 section {
-    padding-top: 2rem;
+    padding-top: 1rem;
     margin:auto;
     text-align: center;
 }
@@ -60,7 +60,7 @@ nav {
 
 /* hero image */
 #hero {
-    width: 100vw;
+    width: 100%;
     height: 500px;
     background: url("../images/hero.webp") no-repeat center/cover;
     text-align: center;
@@ -102,10 +102,7 @@ h2 {
 }
 
 /* tips and advice section */
-#tips .col-12{
-    border-left: #191110 solid 1px;
-    border-right: #191110 solid 1px;
-}
+
 
 /* media queries */
 /* tablets and up */
