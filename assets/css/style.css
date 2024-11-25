@@ -8,36 +8,43 @@
 #ffb6ad light pink */
 
 /* CSS Variables */
-:root{
+:root {
     --primary-font: 'Funnel Sans', sans-serif;
     --secondary-font: 'Knewave', cursive;
 }
 
 /* General Styles */
-body{
+body {
     font-family: var(--primary-font);
     background-color: #fffefe;
-    color:#191110
+    color: #191110
 }
-h1{
+
+h1 {
     font-family: var(--secondary-font);
 }
 
 /* Header */
 /* Navbar */
-nav{
-    background-color: #ff7e6b;
+nav {
+    background-color: #ff7e6b !important;
+
 
 }
 
 /* hero image */
-#hero{
+#hero {
+    margin: 0;
     width: 100vw;
-    height:700px;
+    height: 500px;
     background: url("../images/hero.webp") no-repeat center 40px/cover;
     text-align: center;
-}
-#hero h1{
-    font-size:3rem;
+    /* Flexbox to make the hero text responsive */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+#hero h1 {
+    font-size: 3rem;
+}
