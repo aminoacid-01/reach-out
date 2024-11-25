@@ -72,11 +72,19 @@ h2 {
 
 /* main */
 /* about */
-#about img {
-    width: 95vw;
-    height: auto;
+
+#about span {
+    font-size: 1.2rem;
 }
 #about ol{
     list-style: none;
     padding-left: 0;
+}
+#about ol li{
+    padding: 10px;
+    text-align: justify;
+}
+
+#about .goals{
+    margin:auto 1rem;
 }
