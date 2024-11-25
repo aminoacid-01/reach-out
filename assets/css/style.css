@@ -84,8 +84,10 @@ h2 {
 
 /* main */
 /* about */
-/* #about img { #
-} */
+#about img { 
+    border:#191110 solid 1px;
+    border-radius: 10px;
+}
 #about span {
     font-size: 1.2rem;
 
