@@ -144,7 +144,11 @@ footer{
         padding: 5%;
         padding-top: 30px;  
     }
-    img .depression{
-        max-height:470px;
+}
+
+@media only screen and (min-width: 998px){
+    img.resource{
+        max-height: 300px;
     }
+
 }
