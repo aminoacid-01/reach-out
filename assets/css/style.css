@@ -79,6 +79,10 @@ i {
     border-top: #191110 solid 1px;
 }
 
+.brder-top{
+    border-top:#191110 solid 1px;
+}
+
 /* list styles */
 ol,
 ul {
