@@ -56,6 +56,19 @@ i {
     font-size: 1rem;
 }
 
+
+
+.btn {
+    background-color: #ff7e6b;
+    color: #191110;
+    border-color: #191110;
+}
+
+.btn:hover {
+    background-color: #191110;
+    color: #ffb6ad;
+    border-color: #ffb6ad;
+}
 .text-shadow {
     /* text shadow to help text stand out */
     text-shadow: 2px 3px #191110;
@@ -64,12 +77,6 @@ i {
 .pink-bg {
     background-color: #ffb6ad;
     border-top: #191110 solid 1px;
-}
-
-.btn {
-    background-color: #ff7e6b;
-    color: #191110;
-    border-color: #191110;
 }
 
 /* list styles */
