@@ -61,10 +61,11 @@ i {
     text-shadow: 2px 3px #191110;
 }
 
-.pink-bg{
+.pink-bg {
     background-color: #ffb6ad;
-    border-top:#191110 solid 1px;
+    border-top: #191110 solid 1px;
 }
+
 .btn {
     background-color: #ff7e6b;
     color: #191110;
@@ -135,7 +136,7 @@ h3 {
 }
 
 /* contact */
-#contact-form{
+#contact-form {
     padding: 1rem;
 }
 
@@ -176,6 +177,7 @@ footer {
         padding-top: 30px;
     }
 }
+
 /* desktop */
 @media only screen and (min-width: 998px) {
     img.resource {
