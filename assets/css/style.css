@@ -65,6 +65,11 @@ i {
     background-color: #ffb6ad;
     border-top:#191110 solid 1px;
 }
+.btn {
+    background-color: #ff7e6b;
+    color: #191110;
+    border-color: #191110;
+}
 
 /* list styles */
 ol,
@@ -133,11 +138,7 @@ h3 {
 #contact-form{
     padding: 1rem;
 }
-#contact-form .btn{
-    background-color: #ff7e6b;
-    color: #191110;
-    border-color: #191110;
-}
+
 
 /* footer */
 footer {
