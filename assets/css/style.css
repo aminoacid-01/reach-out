@@ -136,8 +136,14 @@ h3 {
 }
 
 /* contact */
+input, textarea {
+    border: #191110 solid 1px!important; 
+}
 #contact-form {
     padding: 1rem;
+    border: #191110 solid 1px;
+    border-radius: 10px;
+    background-color: #ffb6ad;
 }
 #contact .form-label{
     text-align: left;
