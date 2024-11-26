@@ -58,7 +58,7 @@
 
     </header>
     <main>
-        <section id="contact mb-0">
+        <section id="contact" class="mb-0">
             <h2 class="text-center display-1">Contact Us</h2>
             <p class="m-3" ><strong>We are here to help and support you.</strong> If you have any questions, need additional information, or require support, please
             do not hesitate to reach out to us. Our team is dedicated to providing you with the assistance you need.
@@ -68,25 +68,28 @@
             
             Remember, you are not alone. We are here to listen and help you navigate your mental health journey.</p>
         </section>
-        <div id="contact-form mb-2">
+        <form action="https://formdump.codeinstitute.net" method="post">
+        <div id="contact-form" class="mb-2">
             <div class="container">
                 <div class="mb-3">
                     <label for="fname" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="fname" >
+                    <input type="text" class="form-control" id="fname" aria-label="First name" required >
                 </div>
                 <div class="mb-3">
                     <label for="lname" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="lname" >
+                    <input type="text" class="form-control" id="lname" aria-label="Last name"required>
                 </div>
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></div>
+                <label for="text-area" class="form-label">Additional Information</label>
+                <textarea class="form-control" id="text-area" rows="5" placeholder="Explain your situation and what you might be going through the best you can so we know how to best help you. You can also add as much additional information and context as you like! " required></textarea></div>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+
             </div>
-        </div>
+        </div></form>
     </main>
     <footer>
         <div class="container-fluid">
