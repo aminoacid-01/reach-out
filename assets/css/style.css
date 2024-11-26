@@ -25,6 +25,10 @@ h1 {
 }
 h1, h2, h3, h4{
     font-family: var(--secondary-font);
+    text-shadow: none;
+}
+h2{
+    font-size: 1em;
 }
 
 section {
@@ -53,6 +57,10 @@ li{
 i{
     font-size: 1rem;
 }
+.text-shadow{
+    /* text shadow to help text stand out */
+        text-shadow: 2px 3px #191110;
+}
 /* Header */
 /* Navbar */
 nav {
@@ -74,15 +82,13 @@ nav {
     border-bottom: #191110 solid 1px;
 }
 
-#hero h1 {
+#hero h2 {
     font-size: 3rem;
 }
 
-#hero h1,
-h2 {
+#hero h2,
+h3 {
     margin: 1rem auto;
-    /* text shadow to help text stand out */
-    text-shadow: 2px 3px #191110;
 }
 
 /* main */
