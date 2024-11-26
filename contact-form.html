@@ -76,21 +76,21 @@
                 <div class="container">
                     <div class="mb-3">
                         <label for="fname" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="fname" aria-label="First name" required>
+                        <input type="text" class="form-control" id="fname" aria-label="First name" name="first-name" required>
                     </div>
                     <div class="mb-3">
                         <label for="lname" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="lname" aria-label="Last name" required>
+                        <input type="text" class="form-control" id="lname" aria-label="Last name" name="last-name" required>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email address</label>
+                        <label for="email" name="email" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
                     </div>
                     <div class="mb-3">
                         <label for="text-area" class="form-label">Additional Information</label>
                         <textarea class="form-control" id="text-area" rows="5"
                             placeholder="Explain your situation and what you might be going through the best you can so we know how to best help you. You can also add as much additional information and context as you like! "
-                            required></textarea>
+                            required name="additonal information"></textarea>
                     </div>
                     <button class="btn btn-primary" type="submit">Submit form</button>
 
