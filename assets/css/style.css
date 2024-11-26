@@ -83,7 +83,7 @@ nav {
 }
 
 #hero h2 {
-    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 #hero h2,
