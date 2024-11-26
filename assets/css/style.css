@@ -52,6 +52,20 @@ strong {
     text-transform: uppercase;
 }
 
+i {
+    font-size: 1rem;
+}
+
+.text-shadow {
+    /* text shadow to help text stand out */
+    text-shadow: 2px 3px #191110;
+}
+
+.pink-bg{
+    background-color: #ffb6ad;
+    border-top:#191110 solid 1px;
+}
+
 /* list styles */
 ol,
 ul {
@@ -62,15 +76,6 @@ ul {
 li {
     padding: 10px;
     text-align: justify;
-}
-
-i {
-    font-size: 1rem;
-}
-
-.text-shadow {
-    /* text shadow to help text stand out */
-    text-shadow: 2px 3px #191110;
 }
 
 /* Header */
@@ -162,7 +167,7 @@ footer {
         padding-top: 30px;
     }
 }
-
+/* desktop */
 @media only screen and (min-width: 998px) {
     img.resource {
         max-height: 300px;
@@ -171,4 +176,5 @@ footer {
     body {
         font-size: 1.2rem;
     }
+
 }
