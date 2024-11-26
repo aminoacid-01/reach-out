@@ -129,7 +129,15 @@ h3 {
     margin: auto 1rem;
 }
 
-/* tips and advice section */
+/* contact */
+#contact-form{
+    padding: 1rem;
+}
+#contact-form .btn{
+    background-color: #ff7e6b;
+    color: #191110;
+    border-color: #191110;
+}
 
 /* footer */
 footer {
