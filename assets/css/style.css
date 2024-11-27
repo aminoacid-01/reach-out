@@ -69,6 +69,7 @@ i {
     color: #ffb6ad;
     border-color: #ffb6ad;
 }
+
 .text-shadow {
     /* text shadow to help text stand out */
     text-shadow: 2px 3px #191110;
@@ -79,8 +80,8 @@ i {
     border-top: #191110 solid 1px;
 }
 
-.brder-top{
-    border-top:#191110 solid 1px;
+.brder-top {
+    border-top: #191110 solid 1px;
 }
 
 /* list styles */
@@ -147,16 +148,19 @@ h3 {
 }
 
 /* contact */
-input, textarea {
-    border: #191110 solid 1px!important; 
+input,
+textarea {
+    border: #191110 solid 1px !important;
 }
+
 #contact-form {
     padding: 1rem;
     border: #191110 solid 1px;
     border-radius: 10px;
     background-color: #ffb6ad;
 }
-#contact .form-label{
+
+#contact .form-label {
     text-align: left;
     display: block;
 }
@@ -208,15 +212,17 @@ footer {
     body {
         font-size: 1.2rem;
     }
-    #contact{
+
+    #contact {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     #contact-form {
-        width:600px;
-        padding-left:2rem;
-        padding-right:2rem;
+        width: 600px;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
 }
