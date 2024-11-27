@@ -66,6 +66,13 @@ Reach Out is a site focused on mental health awareness with a focus on providing
 - I noticed that the text was a bit too small on desktop so I increased the font-size via a media query to increase readability on larger screens.
 - As aformentioned, I added a text-shadow for further readability on the text overlaying the hero image.
 
+## Wireframe
+### mobile:
+![mobile-wf](./assets/docs/mobile.png)
+### tablet
+![teblet](./assets/docs/tablet.png)
+I used the tablet wireframe for the desktop because it was too cramped in practise. 
+
 ## Testing 
 
 
